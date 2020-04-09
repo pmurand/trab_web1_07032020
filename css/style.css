@@ -101,6 +101,7 @@ section {
 
 section:first-child {
     border-left: none;
+    margin-left: 0;
 } 
 
 section h2 {
