@@ -25,23 +25,35 @@ time, mark, audio, video {
 
 
 :root {
-    --background-color: #055D56;
+    --background-color:#9B9B9B;
     --dark-extra: #002623;
-    --dark: #00413C;
-    --light: #019086;
+    --dark: #121212;
+    --light: #D8D8D8;
+    --light-extra: lightslategray;
+    --pink: #F5515F;
+    --purple: #8C0ABF;
+
+    --grad: linear-gradient(to bottom right, #F5515F, #8C0ABF);
   }
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: white;
-    margin: 2% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
     font-size: 16px;
+    background-image: url("setup_trial/bg2.svg");
+}
+
+.bg {
+    opacity: 0.2;
 }
 
 header {
-    background-color: var(--background-color);
+    background-color: var(--light);
     padding: 2% 0;
-    color: white
+    color: white;
+    mix-blend-mode: multiply;
+    border-radius: 50px;
 }
 
 h1 {
@@ -51,6 +63,12 @@ h1 {
     text-align: center;
     text-transform: uppercase;
     font-size: 2em;
+}
+
+h3 {
+    font-weight: 800;
+    margin: 20px 0 20px;
+    color: black;
 }
 
 nav {
@@ -66,38 +84,41 @@ nav ul {
     text-decoration: none;
     display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 nav ul li {
     display: inline-flex;
-    padding: 10px 20px 10px 20px;
+    padding: 2px;
     margin: 0px 10px 0px 10px;
-    background-color: white;
-    border-radius: 5px;
-    color: var(--light);
-    border: 2px solid var(--light);
+    background-image: var(--grad);
+    border-radius: 25px;
+    color:var(--background-color);
+    border-image-source: linear-gradient(to bottom right, #F5515F, #8C0ABF)
     transition: 0.4s;
 }
 
 nav ul li:hover {
-    background-color: var(--dark-extra);
-    color: var(--light);
-    border: 2px solid var(--dark-extra);
+    background-color: var(--background-color);
+    color: var(--purple);
+    border-image-source: 2px solid var(--grad);
+}
+
+nav ul li p {
+    background-color: white;
+    border-radius: 25px;
+    margin: 1px;
+    padding: 10px 10px 10px 10px;
 }
 
 article {
     display: flex;
     border-bottom: 2px solid var(--light);
-    margin: 20px 0 20px 0;
-    background-color: blue;
 }
 
 section {
     margin: 20px;
-    padding: 20px;
     flex: 1;
-    background-color: crimson;
 }
 
 section:first-child {
@@ -110,7 +131,6 @@ section h2 {
     font-size: 0.8em;
     font-weight: 800;
     margin: 0 0 5px 0;
-    padding: 0 0 0 0;
 }
 
 section p {
@@ -121,6 +141,7 @@ section p {
 .aside {
     flex: 3;
     border-left: 1px solid var(--light);
+    margin: 20px;
 }
 .aside section {
     width: 100%;
@@ -130,12 +151,24 @@ section p {
 .aside section:first-child {
     text-align: left;
     margin: 20px;
-    padding: 20px;
     border-bottom: 1px solid var(--light);
 }
 
 img {
     border-radius: 50%;
+    margin: 10%;
+}
+table{
+    display: flex-inline;
+    width: 90%;
+    border: 2px solid var(--light);
+    margin-bottom: 20px;
+    padding: 20px ;
+}
+
+
+.local {
+    margin: 30px;
 }
 
 footer {
