@@ -3,6 +3,29 @@
 <head>
     <title>Contato</title>
     <link rel="stylesheet" href="Css/Contato.css">
+
+    <script>
+        function passvalues()
+        {
+            var name=document.getElementById("name").value;
+            localStorage.setItem("textvalue", name);
+
+            var mail=document.getElementById("mail").value;
+            localStorage.setItem("email", mail);
+
+            var phone=document.getElementById("phone").value;
+            localStorage.setItem("telefone", phone);
+
+            var pri=document.getElementById("pri").value;
+            localStorage.setItem("prioridade", pri);
+            
+            var txt=document.getElementById("txt").value;
+            localStorage.setItem("msg", txt);
+            
+            return false;
+        }
+    </script>
+
 </head>
 
 <body>
@@ -10,17 +33,17 @@
     <section>
         <nav>
             <center>
-                <button type="button">Index</button>
-                <button type="button">Priscila Muran</button>
-                <button type="button">André Vieira</button>
-                <button type="button">Vinícius Alcântara</button>
+                <a href="./index.html"><button type="button">Index</button></a>
+                <a href="./priscila/priscila.html"><button type="button">Priscila Muran</button></a>
+                <a href="Andre/AndreVieira.html"><button type="button">Andr&eacute Vieira</button></a>
+                <a href="./vinicius/viniciuscv.html"><button type="button">Vin&iacutecius Alc&acircntara</button></a>
                 <button type="button">Contato</button>
             </center>
         </nav>
     </section>
     <hr size="3" color="#055D56">
 
-    <fieldset>
+    <fieldset action="PaginaResposta.html">
 
         <legend class="txt1">Formulário de Contato</legend>
 
@@ -35,15 +58,15 @@
 
         <label for="pri">Prioridade:</label>
         <select id="pri" name="prioridade">
-            <option value="alta">Alta</option>
-            <option value="media">Média</option>
-            <option value="baixa">Baixa</option>
+            <option value="Alta">Alta</option>
+            <option value="Média">Média</option>
+            <option value="Baixa">Baixa</option>
         </select>
 
         <label for="msg">Mensagem:</label>
         <textarea name="txt" id="txt"></textarea>
 
-        <input type="submit" value="Enviar">
+        <a href="PaginaResposta.html"><input type="submit" value="Enviar" onclick="passvalues();"></a>
     </fieldset>
     <hr size="3" color="#055D56">
     <footer>

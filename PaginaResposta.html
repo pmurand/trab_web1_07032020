@@ -1,0 +1,59 @@
+<html>
+
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/PaginaResposta.css">
+</head>
+
+<body>
+    <header>Desenvolvimento Web I</header>
+    <section>
+        <nav>
+            <style type="text/css">
+                a:link {
+                    text-decoration: none;
+                }
+            </style>
+            <center>
+                <a href="./index.html"><button type="button">Index</button></a>
+                <a href="./priscila/priscila.html"><button type="button">Priscila Muran</button></a>
+                <a href="Andre/AndreVieira.html"><button type="button">Andr&eacute Vieira</button></a>
+                <a href="./vinicius/viniciuscv.html"><button type="button">Vin&iacutecius Alc&acircntara</button></a>
+                <a href="./Contato.html"><button type="button">Contato</button></a>
+            </center>
+        </nav>
+    </section>
+    <hr size="3" color="#055D56">
+
+    <p>
+        Seja bem vindo <span id="resultname"></span> !
+    </p>
+    <p>
+        Email: <span id="resultmail"></span>
+    </p>
+    <p>
+        Telefone: <span id="resultphone"></span>
+    </p>
+    <p>
+        Prioridade: <span id="resultpri"></span>
+    </p>
+    <p>
+        Sua mensagem é: <br> <br> <span id="resulttxt"></span>
+    </p>
+    <script>
+        document.getElementById("resultname").innerHTML = localStorage.getItem("textvalue");
+        document.getElementById("resultmail").innerHTML = localStorage.getItem("email");
+        document.getElementById("resultphone").innerHTML = localStorage.getItem("telefone");
+        document.getElementById("resultpri").innerHTML = localStorage.getItem("prioridade");
+        document.getElementById("resulttxt").innerHTML = localStorage.getItem("msg");
+    </script>
+
+    <hr size="3" color="#055D56">
+
+    <footer>
+        &copy; Made by André Luiz Hiller Vieira - 2020
+    </footer>
+
+</body>
+
+</html>
