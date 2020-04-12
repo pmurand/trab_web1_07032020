@@ -140,13 +140,14 @@ section p {
 .aside {
     flex: 3;
     border-left: 1px solid var(--light);
-    margin: 20px;
-    padding: 20px 0 20px 0;
+    margin: 20px 0 40px 0;
+    padding: 0 0 20px 0;
     width: 100%;
 }
 .aside section {
     width: 100%;
     color: var(--light);
+    padding-top: 20px;
 }
 
 .aside section div {
@@ -158,11 +159,12 @@ section p {
     text-align: left;
     margin: 20px;
     border-bottom: 1px solid var(--light);
-    padding: 0 0 20px 0;
+    padding: 0 0 40px 0;
 }
 
 .experiencias {
     display: flex;
+    padding-bottom: 40px;
 }
 
         .icon {
@@ -215,19 +217,19 @@ section p {
             .cidade {
                 font-weight: 400;
                 color: var(--dark);
-                padding: 1%;
+                padding: 3% 0 0 0;
             }
 
             .cargo {
                 font-weight: 800;
-                padding: 1%;
+                padding: 3% 0 0 0;
             }
 
             .data {
                 font-weight: 400;
                 font-style: italic;
                 color: var(--dark-extra);
-                padding: 1%;
+                padding: 3% 0 0 0;
             }
 
 .cover {
