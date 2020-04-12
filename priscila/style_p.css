@@ -116,6 +116,7 @@ article {
 
 section {
     margin: 20px;
+    background-color: blueviolet;
 }
 
 section:first-child {
@@ -247,5 +248,5 @@ footer {
     font-size: 0.7em;
     text-align: center;
     padding: 1%;
-    color: white;
+    color: var(--dark-extra);
 }
