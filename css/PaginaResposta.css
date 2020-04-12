@@ -23,5 +23,7 @@ button:hover {
     color: white;
 }
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px 0px 0px;
+    font-size: large;
 }
