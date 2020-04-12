@@ -27,9 +27,21 @@
     <p>
         Email: <span id="resultmail"></span>
     </p>
+    <p>
+        Telefone: <span id="resultphone"></span>
+    </p>
+    <p>
+        Prioridade: <span id="resultpri"></span>
+    </p>
+    <p>
+        Sua mensagem foi: <span id="resulttxt"></span>
+    </p>
     <script>
         document.getElementById("resultname").innerHTML=localStorage.getItem("textvalue");
-        document.getElementById("resulmail").innerHTML=localStorage.getItem("email")
+        document.getElementById("resultmail").innerHTML=localStorage.getItem("email");
+        document.getElementById("resultphone").innerHTML=localStorage.getItem("telefone");
+        document.getElementById("resultpri").innerHTML=localStorage.getItem("prioridade");
+        document.getElementById("resulttxt").innerHTML=localStorage.getItem("msg");
     </script>
     
 </html>

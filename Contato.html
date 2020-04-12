@@ -12,6 +12,15 @@
 
             var mail=document.getElementById("mail").value;
             localStorage.setItem("email", mail);
+
+            var phone=document.getElementById("phone").value;
+            localStorage.setItem("telefone", phone);
+
+            var pri=document.getElementById("pri").value;
+            localStorage.setItem("prioridade", pri);
+            
+            var txt=document.getElementById("txt").value;
+            localStorage.setItem("msg", txt);
             
             return false;
         }
@@ -49,9 +58,9 @@
 
         <label for="pri">Prioridade:</label>
         <select id="pri" name="prioridade">
-            <option value="alta">Alta</option>
-            <option value="media">Média</option>
-            <option value="baixa">Baixa</option>
+            <option value="Alta">Alta</option>
+            <option value="Média">Média</option>
+            <option value="Baixa">Baixa</option>
         </select>
 
         <label for="msg">Mensagem:</label>
