@@ -26,16 +26,16 @@ time, mark, audio, video {
 
 
 :root {
-    --background-color: #055D56;
-    --dark-extra: #002623;
-    --dark: #00413C;
-    --light: #019086;
+    --background-color: #9B9B9B;
+    --dark-extra: #121212;
+    --dark: #4A4A4A;
+    --light: #D8D8D8;
   }
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--background-color);
-    margin: % 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
     font-size: 16px;
     color: white;
 }
@@ -75,7 +75,7 @@ nav ul li {
     padding: 10px 20px 10px 20px;
     margin: 0px 10px 0px 10px;
     background-color: var(--dark);
-    border-radius: 5px;
+    border-radius: 25px;
     color: var(--light);
     border: 2px solid var(--dark);
     transition: 0.4s;
@@ -85,6 +85,10 @@ nav ul li:hover {
     background-color: var(--dark-extra);
     color: var(--light);
     border: 2px solid var(--dark-extra);
+}
+
+a {
+    text-decoration: none;
 }
 
 article {
