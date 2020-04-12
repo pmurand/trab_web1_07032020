@@ -41,7 +41,7 @@ body {
 }
 
 header {
-    border-bottom: 2px solid var(--dark);
+    border-bottom: 2px solid var(--light);
     padding: 2% 0;
 }
 
@@ -57,13 +57,13 @@ h1 {
 nav {
     display: flex;
     align-content: center;
-    border-bottom: 2px solid var(--dark);
+    border-bottom: 2px solid var(--light);
     padding: 1.5%;
 }
 
 nav ul {
     box-align: center;
-    color: var(--dark);
+    color: var(--light);
     text-decoration: none;
     display: block;
     margin-left: auto;
@@ -74,17 +74,17 @@ nav ul li {
     display: inline-flex;
     padding: 10px 20px 10px 20px;
     margin: 0px 10px 0px 10px;
-    background-color: var(--dark);
+    background-color: var(--light);
     border-radius: 25px;
-    color: var(--light);
-    border: 2px solid var(--dark);
+    color: var(--dark);
+    border: 2px solid var(--light);
     transition: 0.4s;
 }
 
 nav ul li:hover {
-    background-color: var(--dark-extra);
+    background-color: var(--dark);
     color: var(--light);
-    border: 2px solid var(--dark-extra);
+    border: 2px solid var(--dark);
 }
 
 a {
@@ -93,7 +93,7 @@ a {
 
 article {
     display: flex;
-    border-bottom: 2px solid var(--dark);
+    border-bottom: 2px solid var(--light);
     
 }
 
@@ -101,7 +101,7 @@ section {
     width: 25%;
     margin: 20px;
     padding: 20px;
-    border-left: 1px solid var(--dark);
+    border-left: 1px solid var(--light);
 }
 
 section:first-child {

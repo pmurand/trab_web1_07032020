@@ -48,10 +48,9 @@ body {
 }
 
 header {
-    background-color: var(--light);
+    background-color: var(--background-color);
     padding: 2% 0;
     color: white;
-    mix-blend-mode: multiply;
 }
 
 h1 {
@@ -112,11 +111,11 @@ nav ul li:hover p {
 article {
     display: flex;
     border-bottom: 2px solid var(--light);
+    padding: 0;
 }
 
 section {
-    margin: 20px;
-    background-color: blueviolet;
+    margin: 20px 0 0 20px;
 }
 
 section:first-child {
@@ -138,10 +137,16 @@ section p {
     padding-bottom: 20px; 
 }
 
+img {
+    border-radius: 50%;
+    margin: 0 0 10% 0;
+    width: 150px;
+} 
+
 .aside {
     flex: 3;
     border-left: 1px solid var(--light);
-    margin: 20px 0 40px 0;
+    margin: 20px 20px 20px 0;
     padding: 0 0 20px 0;
     width: 100%;
 }
@@ -160,7 +165,7 @@ section p {
     text-align: left;
     margin: 20px;
     border-bottom: 1px solid var(--light);
-    padding: 0 0 40px 0;
+    padding: 0 0 20px 0;
 }
 
 .experiencias {
@@ -171,12 +176,6 @@ section p {
         .icon {
             flex: 1;
             padding: 0;
-        }
-
-        img {
-            border-radius: 50%;
-            margin: 10%;
-            width: 200px;
         }
 
         .icon img {
