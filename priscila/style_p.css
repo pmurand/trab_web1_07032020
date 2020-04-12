@@ -175,6 +175,7 @@ section p {
         img {
             border-radius: 50%;
             margin: 10%;
+            width: 200px;
         }
 
         .icon img {
@@ -191,7 +192,7 @@ section p {
 }
 
 .title h3 {
-    margin: 1% 0 1% 0;
+    margin: 0.5% 0 0.5% 0;
     text-transform: uppercase;
 
 }
@@ -239,7 +240,7 @@ section p {
 .cover p {
     width: 90%;
     color: var(--dark);
-    margin: 0 0 0 0;
+    margin: 1% 0 0 0;
 }
 
 footer {
