@@ -1,0 +1,251 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+ /* -------CSS RESET END ---------- */
+
+
+:root {
+    --background-color:#9B9B9B;
+    --dark-extra: #4A4A4A;
+    --dark: #121212;
+    --light: #D8D8D8;
+    --light-extra: #9B9B9B;
+    --pink: #F5515F;
+    --purple: #8C0ABF;
+
+    --grad: linear-gradient(to bottom right, #F5515F, #8C0ABF);
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    margin: 1% 1% 1% 1%;
+    font-size: 16px;
+}
+
+.bg {
+    background-image: url("setup_trial/bg4.svg");
+}
+
+header {
+    background-color: var(--light);
+    padding: 2% 0;
+    color: white;
+    mix-blend-mode: multiply;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+h3 {
+    font-weight: 800;
+    margin: 20px 0 20px;
+    color: black;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    border-bottom: 2px solid var(--light);
+    padding: 1.5%;
+}
+
+nav ul {
+    box-align: center;
+    color: var(--dark);
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    display: inline-flex;
+    margin: 0px 10px 0px 10px;
+    color: white;
+    border-radius: 25px;
+    background-color: var(--light);
+}
+
+nav ul li p {
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 25px;
+    margin: 2px;
+    color: var(--dark);
+}
+
+nav ul li:hover {
+    background-image: linear-gradient(to right, var(--pink), var(--purple));
+}
+
+nav ul li:hover p {
+    background-color: none;
+}
+
+article {
+    display: flex;
+    border-bottom: 2px solid var(--light);
+}
+
+section {
+    margin: 20px;
+}
+
+section:first-child {
+    border-left: none;
+    margin-left: 0;
+    text-align: center;
+    margin: auto 20px auto 20px;
+    flex: 1;
+} 
+
+section h2 {
+    font-size: 0.8em;
+    font-weight: 800;
+    margin: 0 0 5px 0;
+}
+
+section p {
+    font-size: 0.8em;
+    padding-bottom: 20px; 
+}
+
+.aside {
+    flex: 3;
+    border-left: 1px solid var(--light);
+    margin: 20px 0 40px 0;
+    padding: 0 0 20px 0;
+    width: 100%;
+}
+.aside section {
+    width: 100%;
+    color: var(--light);
+    padding-top: 20px;
+}
+
+.aside section div {
+    margin: 0;
+    padding: 0;
+}
+
+.aside section:first-child {
+    text-align: left;
+    margin: 20px;
+    border-bottom: 1px solid var(--light);
+    padding: 0 0 40px 0;
+}
+
+.experiencias {
+    display: flex;
+    padding-bottom: 40px;
+}
+
+        .icon {
+            flex: 1;
+            padding: 0;
+        }
+
+        img {
+            border-radius: 50%;
+            margin: 10%;
+            width: 200px;
+        }
+
+        .icon img {
+            margin: auto;
+            width: 80%;
+        }
+
+
+.infos {
+    flex: 9;
+    margin: 0;
+    padding: 0;
+    display: relative;
+}
+
+.title h3 {
+    margin: 0.5% 0 0.5% 0;
+    text-transform: uppercase;
+
+}
+
+        .xp {
+            display: flex;
+            flex: 4;
+            color: var(--dark);
+        }
+
+        .xp div {
+            width: 33%;
+        }
+
+        .xp h3 {
+            font-size: 0.8em;
+            background: -webkit-linear-gradient(var(--pink), var(--purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 400;
+        }
+
+            .cidade {
+                font-weight: 400;
+                color: var(--dark);
+                padding: 3% 0 0 0;
+            }
+
+            .cargo {
+                font-weight: 800;
+                padding: 3% 0 0 0;
+            }
+
+            .data {
+                font-weight: 400;
+                font-style: italic;
+                color: var(--dark-extra);
+                padding: 3% 0 0 0;
+            }
+
+.cover {
+    display: flex;
+}
+
+.cover p {
+    width: 90%;
+    color: var(--dark);
+    margin: 1% 0 0 0;
+}
+
+footer {
+    font-size: 0.7em;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}

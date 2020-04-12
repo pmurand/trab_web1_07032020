@@ -35,21 +35,21 @@ time, mark, audio, video {
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--background-color);
-    margin: 2% 1% 1% 1%;
+    margin: % 1% 1% 1%;
     font-size: 16px;
     color: white;
 }
 
 header {
     border-bottom: 2px solid var(--dark);
-    padding: 1% 0;
+    padding: 2% 0;
 }
 
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 800;
-    color: ##303030;
-    text-align: left;
+    color: white;
+    text-align: center;
     text-transform: uppercase;
     font-size: 2em;
 }
@@ -78,6 +78,7 @@ nav ul li {
     border-radius: 5px;
     color: var(--light);
     border: 2px solid var(--dark);
+    transition: 0.4s;
 }
 
 nav ul li:hover {
