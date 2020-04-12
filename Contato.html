@@ -3,6 +3,20 @@
 <head>
     <title>Contato</title>
     <link rel="stylesheet" href="Css/Contato.css">
+
+    <script>
+        function passvalues()
+        {
+            var name=document.getElementById("name").value;
+            localStorage.setItem("textvalue", name);
+
+            var mail=document.getElementById("mail").value;
+            localStorage.setItem("email", mail);
+            
+            return false;
+        }
+    </script>
+
 </head>
 
 <body>
@@ -20,7 +34,7 @@
     </section>
     <hr size="3" color="#055D56">
 
-    <fieldset>
+    <fieldset action="PaginaResposta.html">
 
         <legend class="txt1">Formulário de Contato</legend>
 
@@ -43,7 +57,7 @@
         <label for="msg">Mensagem:</label>
         <textarea name="txt" id="txt"></textarea>
 
-        <input type="submit" value="Enviar">
+        <a href="PaginaResposta.html"><input type="submit" value="Enviar" onclick="passvalues();"></a>
     </fieldset>
     <hr size="3" color="#055D56">
     <footer>
