@@ -10,25 +10,23 @@
     <section>
         <nav>
             <style type="text/css">
-                a:link
-                {
-                text-decoration:none;
+                a:link {
+                    text-decoration: none;
                 }
-                </style>
+            </style>
             <center>
-                <button type="button"><a href="./index.html">Index</a></button>
-                <button type="button"><a href="./priscila/priscila.html">Priscila Muran</a></button>
-                <button type="button"><a href="./AndreVieira.html">Andr&eacute Vieira</a></button>
-                <button type="button"><a href="./vinicius/viniciuscv.html">Vin&iacutecius Alc&acircntara</a></button>
-                <button type="button"><a href="./Contato.html">Contato</a></button>
+                <a href="./index.html"><button type="button">Index</button></a>
+                <a href="./priscila/priscila.html"><button type="button">Priscila Muran</button></a>
+                <a href="Andre/AndreVieira.html"><button type="button">Andr&eacute Vieira</button></a>
+                <a href="./vinicius/viniciuscv.html"><button type="button">Vin&iacutecius Alc&acircntara</button></a>
+                <a href="./Contato.html"><button type="button">Contato</button></a>
             </center>
         </nav>
     </section>
     <hr size="3" color="#055D56">
-</body>
 
     <p>
-        Olá, seja bem vindo <span id="resultname"></span> !
+        Seja bem vindo <span id="resultname"></span> !
     </p>
     <p>
         Email: <span id="resultmail"></span>
@@ -40,14 +38,22 @@
         Prioridade: <span id="resultpri"></span>
     </p>
     <p>
-        Sua mensagem foi: <span id="resulttxt"></span>
+        Sua mensagem é: <br> <br> <span id="resulttxt"></span>
     </p>
     <script>
-        document.getElementById("resultname").innerHTML=localStorage.getItem("textvalue");
-        document.getElementById("resultmail").innerHTML=localStorage.getItem("email");
-        document.getElementById("resultphone").innerHTML=localStorage.getItem("telefone");
-        document.getElementById("resultpri").innerHTML=localStorage.getItem("prioridade");
-        document.getElementById("resulttxt").innerHTML=localStorage.getItem("msg");
+        document.getElementById("resultname").innerHTML = localStorage.getItem("textvalue");
+        document.getElementById("resultmail").innerHTML = localStorage.getItem("email");
+        document.getElementById("resultphone").innerHTML = localStorage.getItem("telefone");
+        document.getElementById("resultpri").innerHTML = localStorage.getItem("prioridade");
+        document.getElementById("resulttxt").innerHTML = localStorage.getItem("msg");
     </script>
-    
+
+    <hr size="3" color="#055D56">
+
+    <footer>
+        &copy; Made by André Luiz Hiller Vieira - 2020
+    </footer>
+
+</body>
+
 </html>

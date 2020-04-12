@@ -23,5 +23,17 @@ button:hover {
     color: white;
 }
 p{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0px 0px 20px;
+    font-size: large;
+    text-align: justify;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #055D56;
+}
+span{
+    font-weight: normal;
 }
