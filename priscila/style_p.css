@@ -32,8 +32,6 @@ time, mark, audio, video {
     --light-extra: #9B9B9B;
     --pink: #F5515F;
     --purple: #8C0ABF;
-
-    --grad: linear-gradient(to bottom right, #F5515F, #8C0ABF);
   }
 
 body {
