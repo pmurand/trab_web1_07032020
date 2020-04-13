@@ -97,7 +97,6 @@ nav ul li p {
     background-color: white;
     margin: 2px;
     color: var(--dark);
-    font-size: 0.8em;
 }
 
 nav ul li:hover {
