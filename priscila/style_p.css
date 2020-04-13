@@ -51,6 +51,7 @@ header {
     background-color: var(--background-color);
     padding: 2% 0;
     color: white;
+    border-bottom: 2px solid var(--background-color);
 }
 
 h1 {
@@ -88,16 +89,15 @@ nav ul li {
     display: inline-flex;
     margin: 0px 10px 0px 10px;
     color: white;
-    border-radius: 25px;
     background-color: var(--light);
 }
 
 nav ul li p {
     padding: 10px 20px;
     background-color: white;
-    border-radius: 25px;
     margin: 2px;
     color: var(--dark);
+    font-size: 0.8em;
 }
 
 nav ul li:hover {
