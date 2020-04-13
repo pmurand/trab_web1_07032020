@@ -117,6 +117,10 @@ section {
     margin: 20px 0 0 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
 section:first-child {
     border-left: none;
     margin-left: 0;
