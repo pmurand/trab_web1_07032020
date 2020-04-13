@@ -9,6 +9,7 @@ header{
     padding: 25px;
     font-weight: bold;
     color: white;
+    text-align: center;
 }
 .section2{
     display: flex;
