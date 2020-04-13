@@ -23,6 +23,12 @@ time, mark, audio, video {
 
  /* -------CSS RESET END ---------- */
 
+#imgdados{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
 ul{
     margin-left: 10px;
     margin-top: 10px;
@@ -96,21 +102,6 @@ nav ul li:hover {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .element {
     background-image: url(prism.svg);
   }
@@ -120,12 +111,9 @@ header{
 }
 
 
-
-
 #navdosbotao {
     text-align: center;
 }
-
 
 #cabecalho {
     background-color: rgba(179, 179, 179, 0.267);
@@ -168,7 +156,9 @@ button:hover {
     margin-right: 10px; 
     background-color: rgba(240, 81, 81, 0.096);
     flex: 1;
-   
+    margin: 25px;
+    line-height: 35px;
+    
 } 
 
 #conteudo{
@@ -177,18 +167,6 @@ button:hover {
     background-color: rgba(171, 175, 173, 0.26);
     flex: 4;
 }
-
-
-
-#navegacao{
-    margin: 25px;
-    line-height: 45px;
-    
-}
-
-
-
-
 
 #divmeio{
         display: flex;
