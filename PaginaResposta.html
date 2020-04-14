@@ -38,7 +38,7 @@
         Sua mensagem &eacute;: <br> <br> <span id="resulttxt"></span>
     </p>
 
-    <a href="Contato.html"><input type="submit" value="Editar Dados"></a>
+    <input type="submit" value="Editar Dados" onclick="history.go(-1)">
 
     <script>
         document.getElementById("resultname").innerHTML = localStorage.getItem("textvalue");
