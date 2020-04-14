@@ -1,5 +1,7 @@
 body{
-    margin: 20px;
+    margin: 1% 1% 1% 1%;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     background-color: #9B9B9B;
@@ -18,13 +20,14 @@ nav {
     display: flex;
     align-content: center;
     padding: 1.5%;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid #D8D8D8;
 }
 
 a {
     padding: 0;
     margin: 0;
 }
-
 #center {
     margin: auto auto;
 }

@@ -170,9 +170,7 @@ img {
 }
 
 .experiencias {
-    display: flex; 
-    padding-bottom: 40px;
-}
+    display: flex; }
 
         .icon {
             flex: 1;
