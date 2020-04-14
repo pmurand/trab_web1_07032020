@@ -88,7 +88,6 @@ input[type=submit]{
     display: block;
     width: 450px;
     margin: 10px 0px 0px 0px;
-    text-decoration: underline;
 }
 input[type=submit]:focus{
     border: 2px solid #9B9B9B;
@@ -99,7 +98,10 @@ input[type=text]:focus {
     border: 2px solid #9B9B9B;
     border-radius: 3px;
     outline: #9B9B9B;
-  }
+}
+a{
+    text-decoration: none
+}
 textarea{
     width: 450px;
     border: 1px solid #ccc;
