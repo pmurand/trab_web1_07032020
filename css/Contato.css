@@ -5,19 +5,38 @@ header{
     background-color: #9B9B9B;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
-    font-size: 30px;
-    padding: 25px;
-    font-weight: bold;
+    font-size: 2em;
+    padding: 2% 0;
+    font-weight: 800;
     color: white;
     text-align: center;
+    border-bottom: 2px solid #9B9B9B;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    display: flex;
+    align-content: center;
+    padding: 1.5%;
+}
+
+a {
+    padding: 0;
+    margin: 0;
+}
+
+#center {
+    margin: auto auto;
 }
 button{
-    padding: 10px 12px;
-    border: 2px solid #9B9B9B;
+    padding: 10px 20px 10px 20px;
+    margin: 0px 10px 0px 10px;
+    border: 2px solid #D8D8D8;
     color: #9B9B9B;
     background-color: white;
-    margin: 15px 7px 10px 0px;
     transition-duration: 0.4s;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
 }
 button:hover {
     background-color: #9B9B9B;

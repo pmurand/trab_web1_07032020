@@ -10,20 +10,16 @@
     <header>Contato</header>
     <section>
         <nav>
-            <style type="text/css">
-                a:link {
-                    text-decoration: none;
-                }
-            </style>
-            <center>
-                <a href="./index.html"><button type="button">Index</button></a>
-                <a href="./priscila/priscila.html"><button type="button">Priscila Muran</button></a>
+            <div id="center">
+                <a href="index.html"><button type="button">Index</button></a>
+                <a href="priscila/priscila.html"><button type="button">Priscila Muran</button></a>
                 <a href="Andre/AndreVieira.html"><button type="button">Andr&eacute Vieira</button></a>
-                <a href="./vinicius/viniciuscv.html"><button type="button">Vin&iacutecius Alc&acircntara</button></a>
-                <a href="./Contato.html"><button type="button">Contato</button></a>
-            </center>
+                <a href="vinicius/viniciuscv.html"><button type="button">Vin&iacutecius Alc&acircntara</button></a>
+                <a href="Contato.html"><button type="button">Contato</button></a>
+            <div>
         </nav>
     </section>
+
     <hr size="3" color="#D8D8D8">
 
     <p>
@@ -41,6 +37,9 @@
     <p>
         Sua mensagem &eacute;: <br> <br> <span id="resulttxt"></span>
     </p>
+
+    <a href="Contato.html"><input type="submit" value="Editar Dados"></a>
+
     <script>
         document.getElementById("resultname").innerHTML = localStorage.getItem("textvalue");
         document.getElementById("resultmail").innerHTML = localStorage.getItem("email");

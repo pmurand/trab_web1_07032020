@@ -6,23 +6,22 @@
     <link rel="stylesheet" href="Css/Contato.css">
 
     <script>
-        function passvalues()
-        {
-            var name=document.getElementById("name").value;
+        function passvalues() {
+            var name = document.getElementById("name").value;
             localStorage.setItem("textvalue", name);
 
-            var mail=document.getElementById("mail").value;
+            var mail = document.getElementById("mail").value;
             localStorage.setItem("email", mail);
 
-            var phone=document.getElementById("phone").value;
+            var phone = document.getElementById("phone").value;
             localStorage.setItem("telefone", phone);
 
-            var pri=document.getElementById("pri").value;
+            var pri = document.getElementById("pri").value;
             localStorage.setItem("prioridade", pri);
-            
-            var txt=document.getElementById("txt").value;
+
+            var txt = document.getElementById("txt").value;
             localStorage.setItem("msg", txt);
-            
+
             return false;
         }
     </script>
@@ -30,24 +29,25 @@
 </head>
 
 <body>
-    <header> Contato </header>
+    <header>Contato</header>
     <section>
         <nav>
-            <center>
-                <a href="./index.html"><button type="button">Index</button></a>
-                <a href="./priscila/priscila.html"><button type="button">Priscila Muran</button></a>
+            <div id="center">
+                <a href="index.html"><button type="button">Index</button></a>
+                <a href="priscila/priscila.html"><button type="button">Priscila Muran</button></a>
                 <a href="Andre/AndreVieira.html"><button type="button">Andr&eacute Vieira</button></a>
-                <a href="./vinicius/viniciuscv.html"><button type="button">Vin&iacutecius Alc&acircntara</button></a>
+                <a href="vinicius/viniciuscv.html"><button type="button">Vin&iacutecius Alc&acircntara</button></a>
                 <button type="button">Contato</button>
-            </center>
+                <div>
         </nav>
     </section>
+
     <hr size="3" color="#D8D8D8">
 
     <fieldset action="PaginaResposta.html">
 
         <legend class="txt1">Formul&aacute;rio de Contato</legend>
-         
+
         <label for="name">Nome:</label>
         <input type="text" id="name" name="nome">
 
@@ -60,7 +60,7 @@
         <label for="pri">Prioridade:</label>
         <select id="pri" name="prioridade">
             <option value="Alta">Alta</option>
-            <option value="Média">M&eacutedia</option>
+            <option value="M&eacutedia">M&eacutedia</option>
             <option value="Baixa">Baixa</option>
         </select>
 
@@ -71,7 +71,7 @@
     </fieldset>
     <hr size="3" color="#D8D8D8">
     <footer>
-        &copy; Made by Andr&eacute Vieira, Priscila Muran e  Vin&iacutecius Alc&acircntara
+        &copy; Made by Andr&eacute Vieira, Priscila Muran e Vin&iacutecius Alc&acircntara
     </footer>
 
 </body>
